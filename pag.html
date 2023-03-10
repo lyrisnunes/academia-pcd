@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page1">
+        <header>
+            <h1>Treinos <span>exclusivos</span> para <span>PCD</span>!</h1>
+            <p>
+                O primeiro passo para mudar sua qualidade de vida, é preencher esse
+                formulário de inscrição.
+            </p>
+        </header>
+
+        <form>
+            <div class="fieldset-wrapper">
+                <p>Informações</p>
+                <div class="input-wrapper">
+                    <label for="name">Nome : <span>(Escreva seu nome no campo)</span>
+                    </label>
+                    <input type="name" name="name" id="name" />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email : <span>(Escreva seu E-mail no campo)</span>
+                    </label>
+                    <input type="text" name="email" id="email" />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="number">WhatsApp para contato :
+                        <span>(Escreva seu número no campo)</span>
+                    </label>
+                    <input type="number" name="name" id="name" />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="#">Personalize seu treino :</label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria de treino </label>
+                    <select id="categoria">
+                        <option value="basic">Treino básico</option>
+                        <option value="intermediary">Treino intermediário</option>
+                        <option value="advanced">Treino avançado</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="fieldset-wrapper">
+                <p>Dia e hora</p>
+
+                <div class="col">
+                    <div class="input-wrapper">
+                        <label for="data">Data : <span>(Escreva a data que quer começar)</span>
+                        </label>
+                        <input type="date" id="event-date" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Das :</span>
+                        </label>
+                        <input type="time" id="begin" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Até</span></label>
+                        </label>
+                        <input type="time" id="end" />
+                    </div>
+                </div>
+                
+                <div class="btn">
+                    <input class="button" type="submit" value="Enviar Cadastro" />
+                </di class="btn">
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

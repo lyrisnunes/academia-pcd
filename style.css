@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    display: block;
+    width: 700px;
+}
+
+.page{
+    max-width: 1500px;
+    margin: 18px  auto 0;
+    padding: 0 20px;
+    
+}
+
+body{
+    background-color:#000000 ;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    background-image: url(img/fundo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header ul a{
+    color: #FFFFFF;
+}
+
+header ul .detach{
+    background-color: #590AC4;
+    padding: 10px 30px;
+}
+
+h2{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+strong{
+    color: #590AC4;
+}
+
+/**/
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 50px 0;
+
+}
+
+main h1{
+    font-size: 80px;
+}
+
+main p{
+    padding: 40px 0;
+    font-size: 19px;
+}
+
+main img{
+    border-radius: 15px;
+}
+
+main button{
+    background-color: #590AC4;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    border: none;
+
+}
+
+main i{
+    font-size: 15px;
+}
+
+footer{
+    list-style: 28px;
+    margin-top: 30px;
+    text-align: center;  
+}
+
+footer a{
+    color: #FFFFFF;
+}
+
+@media(max-width:1170px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    main img{
+        margin: 0 auto;
+    }
+}

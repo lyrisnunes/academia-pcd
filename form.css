@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(img/fundo.jpg);
+    background-position: center top;
+}
+
+.page1{
+    width: 740px;
+    margin: auto;
+    margin-top: 80px;    
+    border-radius: 8px;
+}
+
+header{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+header span{
+    color: #590AC4;
+}
+
+header p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+
+.fieldset-wrapper{
+    background-color: #FAFAFC;
+    min-height: 150px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+form input{
+    display: block;
+    margin-top: 10px ;
+    width: 100%;
+    padding: 8px 5px;
+    font-size: 20px;
+}
+
+form span{
+    color: rgb(130, 129, 129);
+    padding-left: 10px;
+}
+
+.input-wrapper input, .input-wrapper textarea, .input-wrapper select{
+    border: 1px solid #E6E6F0;
+    color: #6c6a71;
+     width: 100%;
+}
+
+.input-wrapper textarea{
+    margin-top: 10px;
+}
+
+.input-wrapper  select{
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+
+fieldset-wrapper label{
+    padding-top: 20px;
+}
+ 
+.col{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.btn{
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button{
+    height: 56px;
+    background-color: #590AC4;    
+    color: #E5E5E5;
+    cursor: pointer;
+    border: 1px solid rgb(172, 168, 168);
+}
+
+.button:hover{
+    background-color: #6e17e8;    
+}
