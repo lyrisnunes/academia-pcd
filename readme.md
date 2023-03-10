@@ -25,5 +25,5 @@ O projeto foi desenvolvido com as seguintes tecnologias
 ## 👩🏽‍💻 Acesse o projeto
 
  <h3>
-        <a href="https://lyrisnunes.github.io/formulario-pcd/"> - Veja o projeto clique aqui </a>
+        <a href="https://lyrisnunes.github.io/academia-pcd/"> - Veja o projeto clique aqui </a>
 </h3>
